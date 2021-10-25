@@ -8,7 +8,10 @@
       <change afterPath="$PROJECT_DIR$/src/Aula0007/Guiado/Computador.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Aula0007/Guiado/ComputadorFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Aula0007/Guiado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0007/Mesa/Forest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Aula0007/Mesa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0007/Mesa/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0007/Mesa/TreeFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
