@@ -1,16 +1,15 @@
 package Integradores.Aula0003_TemplateIntegradorAluno.src;
 
-public class Afiliado extends Vendedor{
-
-    public Afiliado(String nome){
+public class Estagiario extends Vendedor{
+    public Estagiario(String nome){
         super.nome = nome;
-        super.pontosVenda = 15;
+        super.pontosVenda = 5;
         this.pontosTotais = 0;
-        super.tipo = "afiliado";
+        super.tipo = "estagiario";
     }
 
     @Override
-    public void calcularPontos() {
+    public void calcularPontos(){
         super.pontosTotais = super.vendas * super.pontosVenda;
     }
 }

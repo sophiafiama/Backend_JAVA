@@ -2,15 +2,17 @@ package Integradores.Aula0003_TemplateIntegradorAluno.src;
 
 import java.util.ArrayList;
 
+import java.util.ArrayList;
+
 public class Funcionario extends Vendedor {
 
-    private final int anosAntiguidade;
-    private final ArrayList<Vendedor> afiliados = new ArrayList<>();
-
+    private int anosAntiguidade;
+    private ArrayList<Vendedor> afiliados = new ArrayList<>();
 
     public Funcionario(String nome, int anosAntiguidade){
         super.nome = nome;
         super.pontosVenda = 5;
+        super.tipo = "funcionario";
         this.anosAntiguidade = anosAntiguidade;
         this.pontosTotais = 0;
     }
@@ -22,10 +24,9 @@ public class Funcionario extends Vendedor {
     }
 
     /*implementação do método abstrato*/
-    /*por cada ano de antiguidade obtem 5 pontos, por cada afiliado obtem 10*/
+    /*por cada ano de antiguidade obtem 5 pontos, por cada afiliado obtem 5*/
     @Override
-    public int calcularPontos() {
+    public void calcularPontos() {
         super.pontosTotais = (this.afiliados.size()*10) + (this.anosAntiguidade*5) + (super.vendas*super.pontosVenda);
-        return pontosTotais;
     }
 }
