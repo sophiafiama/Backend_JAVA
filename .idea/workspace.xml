@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="" />
+    <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aula0008/Guiado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/ApiCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/ApiCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/ApiProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/ApiProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/ApiQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/ApiQuantidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/Cartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/Cartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/FachadaDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/FachadaDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/IFachadaDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/IFachadaDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/ApiHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/ApiHotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/ApiVoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/ApiVoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/FachadaBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/FachadaBusca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/IFachadaBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/IFachadaBusca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/Voo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/Voo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0004" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Integradores" />
     </key>
@@ -57,19 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula0004.Guiado.Main" />
-      <module name="Aulas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aula0004.Guiado.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula0007.Guiado.Main" />
       <module name="Aulas" />
@@ -84,11 +89,37 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula0007.Mesa.Main" />
+      <option name="MAIN_CLASS_NAME" value="Aula0007_FlyweightPattern.Mesa.Main" />
       <module name="Aulas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula0007.Mesa.*" />
+          <option name="PATTERN" value="Aula0007_FlyweightPattern.Mesa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula0004.Guiado.Main" />
+      <module name="Aulas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula0004_ChainOfResponsibilityPattern.Guiado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula0007_FlyweightPattern.Guiado.Main" />
+      <module name="Aulas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula0007_FlyweightPattern.Guiado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +128,11 @@
       </method>
     </configuration>
     <configuration name="ProcessaMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula0004.Guiado.src.ProcessaMail" />
+      <option name="MAIN_CLASS_NAME" value="Aula0004_ChainOfResponsibilityPattern.Guiado.src.ProcessaMail" />
       <module name="Aulas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula0004.Guiado.src.*" />
+          <option name="PATTERN" value="Aula0004_ChainOfResponsibilityPattern.Guiado.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,5 +172,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aula0004/Guiado/src/ProcessaMail.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
