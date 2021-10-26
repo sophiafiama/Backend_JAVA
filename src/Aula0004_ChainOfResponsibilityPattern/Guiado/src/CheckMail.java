@@ -4,7 +4,9 @@ public class CheckMail {
     Gerenciador inicial;
 
     public CheckMail(){
+
         this.inicial = new GerenciadorGerencia();
+
         Gerenciador tecnico = new GerenciadorTecnico();
         Gerenciador comercial = new GerenciadorComercial();
         Gerenciador spam = new GerenciadorSpam();
@@ -15,6 +17,6 @@ public class CheckMail {
     }
 
     public void verificarEmails(Mail mail){
-        inicial.verificar(mail);
+         inicial.verificar(mail);
     }
 }

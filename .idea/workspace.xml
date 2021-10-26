@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aula0008/Guiado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/Controle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControleEmbalagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControleLote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControlePeso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/ApiCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/ApiCartao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/ApiProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/ApiProduto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/ApiQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/ApiQuantidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/Cartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/Cartao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/FachadaDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/FachadaDesconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/IFachadaDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/IFachadaDesconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Guiado/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Guiado/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/ApiHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/ApiHotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/ApiVoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/ApiVoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/FachadaBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/FachadaBusca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/IFachadaBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/IFachadaBusca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0001/Mesa/Voo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0001_FacadePattern/Mesa/Voo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Guiado/src/CheckMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Guiado/src/CheckMail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +168,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aula0004/Guiado/src/ProcessaMail.java</url>
+          <url>file://$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Guiado/src/ProcessaMail.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
