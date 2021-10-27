@@ -1,8 +1,6 @@
 package Aula0004_ChainOfResponsibilityPattern.Mesa;
 
-import Aula0004_ChainOfResponsibilityPattern.Guiado.src.Mail;
-
-public class Controle {
+public abstract class Controle {
 
     protected Controle controleseguinte;
 
@@ -14,5 +12,5 @@ public class Controle {
         this.controleseguinte = controleseguinte;
     }
 
-    public abstract void verificar(Produto produto);
+    public abstract void verificarProduto(Produto produto);
 }
