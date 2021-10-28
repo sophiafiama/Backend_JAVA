@@ -5,64 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0009/Guiado/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0009/Guiado/TrianguloFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0009/Guiado/TrianguloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0009/Mesa/Roupa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0009/Mesa/RoupaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0009/Mesa/RoupaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0006/Mesa/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0006/Mesa/GradeDeFilmesProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0006/Mesa/GradeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0006/Mesa/IGradeFilmes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aulas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Guiado/ApiCartao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Guiado/ApiProduto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Guiado/ApiQuantidade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Guiado/Cartao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Guiado/FachadaDesconto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Guiado/IFachadaDesconto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Guiado/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Guiado/Produto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Mesa/ApiHotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Mesa/ApiVoo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Mesa/FachadaBusca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Mesa/Hotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Mesa/IFachadaBusca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0001/Mesa/Voo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Guiado/Contratado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Guiado/Efetivo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Guiado/Funcionarios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Guiado/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Mesa/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Mesa/OfertaCardapio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Mesa/OfertaCardapioAdulto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Mesa/OfertaCardapioKids.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0002/Mesa/OfertaCardápioVeg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/Colmeia.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/src/CheckMail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/src/Gerenciador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/src/GerenciadorComercial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/src/GerenciadorGerencia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/src/GerenciadorSpam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/src/GerenciadorTecnico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/src/Mail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Guiado/src/ProcessaMail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0004/Mesa/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0007/Guiado/Computador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0007/Guiado/ComputadorFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0007/Guiado/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0007/Mesa/Forest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0007/Mesa/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0007/Mesa/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0007/Mesa/TreeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0008/Guiado/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/Controle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/Controle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControleEmbalagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControleEmbalagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControleLote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControleLote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControlePeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/ControlePeso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0004_ChainOfResponsibilityPattern/Mesa/CheckQuality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Integradores/Aula0006/Mesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Integradores/Aula0006/Mesa/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
