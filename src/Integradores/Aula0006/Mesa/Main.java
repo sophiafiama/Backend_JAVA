@@ -5,7 +5,7 @@ public class Main {
         Filme filme1 = new Filme("Onde os Fracos Não Têm Vez","Mexico");
         Filme filme2 = new Filme("O Auto da Compadecida","Brasil");
         Filme filme3 = new Filme("O Labirinto do Fauno","Colômbia");
-        Filme filme4 = new Filme("A Pele Que Habito","Argentina");
+        Filme filme4 = new Filme("A Forma da Água","Argentina");
 
         GradeDeFilmes catalogoDeFilmes = new GradeDeFilmes();
 
@@ -24,7 +24,7 @@ public class Main {
         }
 
         try {
-            clienteArgentina.getFilme("A Pele Que Habito");
+            clienteArgentina.getFilme("A Forma da Água");
         } catch (FilmeNaoHabilitadoException exception){
             System.err.println(exception.getMessage());
         }
