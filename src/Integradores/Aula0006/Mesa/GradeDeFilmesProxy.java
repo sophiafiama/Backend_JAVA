@@ -1,34 +1,43 @@
 package Integradores.Aula0006.Mesa;
 
-public class GradeDeFilmesProxy implements IGradeFilmes{
+public class GradeDeFilmesProxy implements IGradeDeFilmes {
 
-    private int ip_1;
-    private int ip_2;
-    private int ip_3;
-    private int ip_4;
-    private String ip;
+    private int IP_1;
+    private int IP_2;
+    private int IP_3;
+    private int IP_4;
+    private GradeDeFilmes catalogo;
 
 
-    public GradeDeFilmesProxy(int ip_1, int ip_2, int ip_3, int ip_4, String ip) {
-        this.ip_1 = ip_1;
-        this.ip_2 = ip_2;
-        this.ip_3 = ip_3;
-        this.ip_4 = ip_4;
-        this.ip = ip_1+"."+ip_2+"."+ip_3+"."+ip_4;
+    public GradeDeFilmesProxy(int IP_1, int IP_2, int IP_3, int IP_4, GradeDeFilmes catalogo) {
+        this.IP_1 = IP_1;
+        this.IP_2 = IP_2;
+        this.IP_3 = IP_3;
+        this.IP_4 = IP_4;
+        this.catalogo = catalogo;
     }
 
     @Override
-    public Filme getFilme(String nome) {
-        String paisIp;
-
-        if(ip_1 < 50){
-            paisIp = "Argentina";
-        }if (ip_1 < 100){
-            paisIp = "Brasil";
-        } if(ip_1 < 150){
-            paisIp = "Colombia";
-        }
-
+    public Filme getFilme(String nomeDoFilme) throws FilmeNaoHabilitadoException{
+        Filme filmeVerificado = catalogo.getFilme(nomeDoFilme);
+        if(filmeVerificado.getPais().equalsIgnoreCase(verificarPais())){
+            System.out.println("O filme "+filmeVerificado.getNome()+" está pronto para você assistir!");
+            return filmeVerificado;
+        }else
+            throw new FilmeNaoHabilitadoException("O filme "+filmeVerificado.getNome()+" não está disponível em seu país.");
     }
 
+    public String verificarPais() {
+        if (IP_1 < 50) {
+            return "Argentina";
+        }
+        if (IP_1 < 100) {
+            return "Brasil";
+        }
+        if (IP_1 < 150) {
+            return "Colômbia";
+        } else {
+            return "País não localizado";
+        }
+    }
 }
