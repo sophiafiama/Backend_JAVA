@@ -1,5 +1,3 @@
-package Aula0010_Logging.Guiado;
-
 import org.apache.log4j.Logger;
 
 

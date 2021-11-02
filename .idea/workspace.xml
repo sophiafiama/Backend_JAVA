@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Aula00010_Logging/src/Leão.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula00010_Logging/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula00010_Logging/src/Tigre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula00010_Logging/src/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Leao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Tigre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Tigre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/Leao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/Tigre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/log4j.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +50,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../log4j-1.2.17 (1)/apache-log4j-1.2.17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -49,17 +60,30 @@
       <recent name="Integradores.Aula0006.Mesa" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src" />
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\animais\src" />
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\Guiado" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging" />
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Integradores\Aula0006" />
-      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Integradores\Aula0006\Mesa" />
-      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0004" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Aula0001.Desafio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula0010_Logging.ExercicioAnimais.src.Main" />
+      <module name="Aulas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula0010_Logging.ExercicioAnimais.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Integradores.Aula0006.Mesa.Main" />
       <module name="Aulas" />
@@ -73,25 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula0010_Logging.Guiado.Main" />
       <module name="Aulas" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Aula0010_Logging.Guiado.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Integradores.Aula0003_TemplateIntegradorAluno.src.Main" />
-      <module name="Aulas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Integradores.Aula0003_TemplateIntegradorAluno.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.RoupaTest" />
         <item itemvalue="JUnit.TrianguloTest" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
