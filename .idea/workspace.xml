@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Aula00010_Logging/src/Leão.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula00010_Logging/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula00010_Logging/src/Tigre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula00010_Logging/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula0011_BancoDeDados/Guiado/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Leao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Tigre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/Tigre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aulas/Aula0010_Logging/Guiado/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/Leao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/Tigre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0010_Logging/Guiado/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +40,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../Program Files (x86)/H2/bin/h2-1.4.199.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,18 +49,24 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Integradores.Aula0006.Mesa" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\Guiado" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0011_BancoDeDados" />
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\animais\src" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\Guiado" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging" />
-      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src" />
-      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Integradores\Aula0006" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Aula0001.Desafio" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Aula0011_BancoDeDados.Guiado" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula0010_Logging.ExercicioAnimais.src.Main" />
       <module name="Aulas" />
@@ -85,11 +81,24 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Integradores.Aula0006.Mesa.Main" />
+      <option name="MAIN_CLASS_NAME" value="Aula0011_BancoDeDados.Guiado.Main" />
       <module name="Aulas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Integradores.Aula0006.Mesa.*" />
+          <option name="PATTERN" value="Aula0011_BancoDeDados.Guiado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula0011_BancoDeDados.ExercicioAnimais.src.Main" />
+      <module name="Aulas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula0011_BancoDeDados.ExercicioAnimais.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,28 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrianguloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aulas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Integradores.Aula0009.Guiado.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Integradores.Aula0009.Guiado" />
-      <option name="MAIN_CLASS_NAME" value="Integradores.Aula0009.Guiado.TrianguloTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.RoupaTest" />
-        <item itemvalue="JUnit.TrianguloTest" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
