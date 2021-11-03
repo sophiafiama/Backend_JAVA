@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Integradores/Aula0012/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Integradores/Aula0012/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Integradores/Aula0012/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +52,11 @@
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\Guiado" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Integradores\Aula0012" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0011_BancoDeDados" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\animais\src" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\Guiado" />
-      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Aula0001.Desafio" />
@@ -65,7 +65,7 @@
       <recent name="Aula0011_BancoDeDados.Guiado" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula0010_Logging.ExercicioAnimais.src.Main" />
       <module name="Aulas" />
@@ -98,6 +98,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Aula0011_BancoDeDados.ExercicioAnimais.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Integradores.Aula0012.Main" />
+      <module name="Aulas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Integradores.Aula0012.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,28 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoupaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aulas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Integradores.Aula0009.Mesa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Integradores.Aula0009.Mesa" />
-      <option name="MAIN_CLASS_NAME" value="Integradores.Aula0009.Mesa.RoupaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.RoupaTest" />
       </list>
     </recent_temporary>
   </component>
