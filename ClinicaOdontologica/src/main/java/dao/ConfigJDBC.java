@@ -31,6 +31,14 @@ public class ConfigJDBC {
             "city VARCHAR(50)," +
             "state VARCHAR(50));";
 
+    private static final String SQL_CREATE_TABLE_DENTISTS = "" +
+            "DROP TABLE IF EXISTS DENTISTS;" +
+            "CREATE TABLE DENTISTS" +
+            "(id int AUTO_INCREMENT PRIMARY KEY NOT NULL," +
+            "registration VARCHAR(20)," +
+            "name VARCHAR(250)," +
+            "lastname VARCHAR(250));";
+
     public ConfigJDBC() {
         this.jbdcDriver = "org.h2.Driver";
         this.DB_URL = "jdbc:h2:~/test";
@@ -46,6 +54,7 @@ public class ConfigJDBC {
           Statement statement = connection.createStatement();
           statement.execute(SQL_CREATE_TABLE_ADDRESSES);
           statement.execute(SQL_CREATE_TABLE_PATIENTS);
+          statement.execute(SQL_CREATE_TABLE_DENTISTS);
           connection.close();
 
         } catch (Exception e) {

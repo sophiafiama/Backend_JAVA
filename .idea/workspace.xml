@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0016_maven/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/dao/ConfigJBDC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/dao/impl/PacienteDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/service/PacienteService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Integradores/Aula0012/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Integradores/Aula0012/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0014_Serialização/Guiado/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0014_Serialização/Guiado/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula0014_Serialização/Guiado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0014_Serialização/Guiado/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +67,11 @@
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\Guiado" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Integradores" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Integradores\Aula0012" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0011_BancoDeDados" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src" />
       <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\animais\src" />
-      <recent name="C:\Users\SAMSUNG\Desktop\CTD - Controle\Ano 1\3º Bimestre\Backend\src\Aula0010_Logging\Guiado" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Aula0001.Desafio" />

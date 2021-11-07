@@ -6,17 +6,23 @@ import model.Address;
 import model.Patient;
 import org.apache.log4j.Logger;
 
+import javax.swing.plaf.nimbus.State;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PatientDaoImpl implements IDao<Patient> {
 
     private ConfigJDBC CFG_JBDC;
+    private AddressDaoImpl addressDao;
     final static Logger log = Logger.getLogger(PatientDaoImpl.class);
 
-    public PatientDaoImpl(ConfigJDBC CFG_JBDC) {
-        this.CFG_JBDC = CFG_JBDC;
+    public PatientDaoImpl() {
+
+        this.CFG_JBDC = new ConfigJDBC();
+        this.addressDao = new AddressDaoImpl();
     }
 
     @Override
@@ -83,11 +89,48 @@ public class PatientDaoImpl implements IDao<Patient> {
             }
             statement.close();
             connection.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        try{log.debug("Paciente de id " + id + " encontrado: " + patient.toString());}
+        catch (NullPointerException e){
+            log.debug("Paciente não encontrado no banco de dados");
+        }
+        return patient;
+    }
+
+    @Override
+    public List<Patient> searchAll() {
+        Connection connection = CFG_JBDC.connectionDB();
+        Statement statement = null;
+        String query = String.format("" +
+                "SELECT * FROM PATIENTS;");
+
+        List<Patient> patients = new ArrayList<>();
+
+        try {
+            statement = connection.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+            log.debug("Mostrando a lista de todos os pacientes: ");
+
+            while (rs.next()) {
+                Address address = null;
+                Patient patient = new Patient(
+                        rs.getInt("id"),
+                        rs.getString("name"),
+                        rs.getString("last_name"),
+                        rs.getString("rg"),
+                        rs.getString("registered_date"),
+                        address = (Address) addressDao.search(rs.getInt("address_id")));
+                patients.add(patient);
+                log.debug(patient.toString());
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
-        log.debug("Paciente de id " + id + " encontrado: " + patient.toString());
-        return patient;
+        return patients;
     }
 
     @Override
@@ -95,12 +138,12 @@ public class PatientDaoImpl implements IDao<Patient> {
         log.debug("Deletando paciente de nome: " + patient.getName() + " " + patient.getLastname());
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
-        String query = String.format("" +
-                "DELETE FROM PATIENT WHERE id=%s", patient.getId());
+        String queryPatient = String.format("" +
+                "DELETE FROM PATIENTS WHERE id=%s", patient.getId());
 
         try {
             statement = connection.createStatement();
-            statement.executeUpdate(query);
+            statement.executeUpdate(queryPatient);
             statement.close();
             connection.close();
         } catch (Exception e) {
@@ -113,8 +156,29 @@ public class PatientDaoImpl implements IDao<Patient> {
     public Patient update(Patient patient) {
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
-        String query = String.format("");
-        return null;
+        String query = String.format(""+
+                "UPDATE PATIENTS SET name='%s', last_name ='%s', rg = '%s', registered_date = '%s', address_id='%s'+" +
+                        "WHERE id='%s';",
+        patient.getName(), patient.getLastname(), patient.getRg(), patient.getRegisteredDate(), patient.getAddress()
+        );
+        try{
+            statement =connection.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+            if(rs.next()) {
+                Address address = null;
+                        Patient patient = new Patient(
+                        rs.getInt("id"),
+                        rs.getString("name"),
+                        rs.getString("last_name"),
+                        rs.getString("rg"),
+                        rs.getString("registered_date"),
+                        address = (Address) addressDao.search(rs.getInt("address_id")));
+
+            }
+                }
+        catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
 }

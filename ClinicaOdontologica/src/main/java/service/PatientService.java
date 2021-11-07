@@ -3,6 +3,8 @@ package service;
 import dao.IDao;
 import model.Patient;
 
+import java.util.List;
+
 public class PatientService {
 
     private IDao<Patient> patientIDao;
@@ -23,9 +25,14 @@ public class PatientService {
         return patientIDao.search(id);
     }
 
+    public List<Patient> searchAllPatients() {
+        return patientIDao.searchAll();
+    }
+
     public void delete(Patient patient) {
-        addressService.delete(patient.getAddress());
+
         patientIDao.delete(patient);
+        addressService.delete(patient.getAddress());
     }
 
 

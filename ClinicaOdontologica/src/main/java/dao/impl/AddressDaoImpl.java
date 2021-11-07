@@ -10,13 +10,17 @@ import java.io.ObjectInputFilter;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class AddressDaoImpl implements IDao<Address> {
 
     private ConfigJDBC CFG_JBDC;
     final static Logger log = Logger.getLogger(AddressDaoImpl.class);
 
-    public AddressDaoImpl(ConfigJDBC CFG_JBDC) { this.CFG_JBDC = CFG_JBDC; }
+    public AddressDaoImpl() {
+        this.CFG_JBDC = new ConfigJDBC();
+    }
 
     @Override
     public Address save(Address address) {
@@ -71,12 +75,48 @@ public class AddressDaoImpl implements IDao<Address> {
     }
 
     @Override
+    public List<Address> searchAll() {
+        Connection connection = CFG_JBDC.connectionDB();
+        Statement statement = null;
+        String query = String.format(""+
+                "SELECT * FROM ADDRESSES;");
+
+        List<Address> addresses = new ArrayList<>();
+
+        try{
+            statement = connection.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+            log.debug("Mostrando lista de endereço");
+
+            while (rs.next()){
+                Address address = new Address(
+                        rs.getInt("id"),
+                        rs.getString("street"),
+                        rs.getInt("number"),
+                        rs.getString("city"),
+                        rs.getString("state")
+                        );
+                addresses.add(address);
+                log.debug(address.toString());
+            }
+
+          }catch (Exception e){
+
+            e.printStackTrace();
+
+        }
+        return addresses;
+    }
+
+
+
+    @Override
     public void delete(Address address) {
         log.debug("Deletando o endereço: " + address.toString());
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
-                "DELETE FROM ADDRESSESS WHERE id=%s", address.getId());
+                "DELETE FROM ADDRESSES WHERE id=%s", address.getId());
 
         try {
             statement = connection.createStatement();

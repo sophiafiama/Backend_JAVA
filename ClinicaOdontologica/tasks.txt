@@ -45,3 +45,12 @@ Utilizando a camada de serviço:
 3. Pesquise e imprima no console todos os pacientes com seus endereços,
 serão listados todos os pacientes que incluímos antes de realizar o
 primeiro teste.
+
+TODO
+TASK -> Lista de todos os pacientes e endereços
+TASK -> Lista de todos os dentistas
+TAKS -> Null em caso de voltar de vazio
+TASK -> Finalizar e testar todos os CRUDS.
+
+REFACTOR'S TASKS:
+1 - SEARCH FROM PATIENT
