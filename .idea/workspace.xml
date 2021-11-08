@@ -5,23 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c6a59e-85cf-4744-8535-07980e2d9fbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0015_Integradora/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0016_maven/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/dao/ConfigJBDC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/dao/IDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/dao/impl/PacienteDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/model/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/model/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula0016_maven/src/main/java/service/PacienteService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0014_Serialização/Guiado/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0014_Serialização/Guiado/Cachorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula0014_Serialização/Guiado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula0014_Serialização/Guiado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/src/main/java/com/example/meuProjeto/MeuProjetoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula0017_SpringBoot/src/test/java/com/example/meuProjeto/MeuProjetoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/dao/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/dao/impl/AddressDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/dao/impl/AddressDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/dao/impl/DentistDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/dao/impl/DentistDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/dao/impl/PatientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/dao/impl/PatientDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/service/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/service/DentistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/service/DentistService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/service/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/src/main/java/service/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/test/java/DentistTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/src/test/java/PatientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/dao/IDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/dao/IDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/dao/impl/AddressDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/dao/impl/AddressDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/dao/impl/DentistDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/dao/impl/DentistDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/dao/impl/PatientDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/dao/impl/PatientDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/service/AddressService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/service/DentistService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/service/DentistService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/service/PatientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/target/classes/service/PatientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/test-classes/DentistTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/target/test-classes/PatientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClinicaOdontologica/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ClinicaOdontologica/tasks.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +68,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../Program Files (x86)/H2/bin/h2-1.4.199.jar" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ClinicaOdontologica" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -80,20 +95,7 @@
       <recent name="Aula0011_BancoDeDados.Guiado" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula0010_Logging.ExercicioAnimais.src.Main" />
-      <module name="Aulas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aula0010_Logging.ExercicioAnimais.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula0011_BancoDeDados.Guiado.Main" />
       <module name="Aulas" />
@@ -126,6 +128,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Integradores.Aula0012.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula0001_FacadePattern.Guiado.Main" />
+      <module name="Aulas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula0001_FacadePattern.Guiado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>

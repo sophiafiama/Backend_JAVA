@@ -8,6 +8,6 @@ public interface IDao <T> {
     public T save(T t);
     public T search(Integer id);
     public List<T> searchAll();
-    public void delete(T t); // Ainda verificando a possibilidade de ser um Integer id ao invés de um objeto
-    public T update(T t); //
+    public void delete(T t);
+    public Integer update(String name, Integer id);
 }

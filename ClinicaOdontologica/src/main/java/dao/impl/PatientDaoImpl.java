@@ -27,7 +27,7 @@ public class PatientDaoImpl implements IDao<Patient> {
 
     @Override
     public Patient save(Patient patient) {
-        log.debug("Registrando um novo paciente: " + patient.toString());
+        log.debug("Registrando paciente: " + patient.toString());
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
@@ -52,7 +52,7 @@ public class PatientDaoImpl implements IDao<Patient> {
 
     @Override
     public Patient search(Integer id) {
-        log.debug("Procurando o paciente de id: " + id);
+        log.debug("Buscando paciente. Id: " + id);
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
@@ -89,14 +89,14 @@ public class PatientDaoImpl implements IDao<Patient> {
             }
             statement.close();
             connection.close();
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
+
             e.printStackTrace();
         }
 
-        try{log.debug("Paciente de id " + id + " encontrado: " + patient.toString());}
-        catch (NullPointerException e){
-            log.debug("Paciente não encontrado no banco de dados");
+        try { log.debug("Paciente de id " + id + " encontrado: " + patient.toString()); }
+        catch (NullPointerException e) {
+            log.debug("Paciente não encontrado!");
         }
         return patient;
     }
@@ -113,7 +113,7 @@ public class PatientDaoImpl implements IDao<Patient> {
         try {
             statement = connection.createStatement();
             ResultSet rs = statement.executeQuery(query);
-            log.debug("Mostrando a lista de todos os pacientes: ");
+            log.debug("Lista de pacientes cadastrados: ");
 
             while (rs.next()) {
                 Address address = null;
@@ -149,36 +149,28 @@ public class PatientDaoImpl implements IDao<Patient> {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     @Override
-    public Patient update(Patient patient) {
+    public Integer update(String requisition, Integer id) {
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
-        String query = String.format(""+
-                "UPDATE PATIENTS SET name='%s', last_name ='%s', rg = '%s', registered_date = '%s', address_id='%s'+" +
-                        "WHERE id='%s';",
-        patient.getName(), patient.getLastname(), patient.getRg(), patient.getRegisteredDate(), patient.getAddress()
-        );
-        try{
-            statement =connection.createStatement();
-            ResultSet rs = statement.executeQuery(query);
-            if(rs.next()) {
-                Address address = null;
-                        Patient patient = new Patient(
-                        rs.getInt("id"),
-                        rs.getString("name"),
-                        rs.getString("last_name"),
-                        rs.getString("rg"),
-                        rs.getString("registered_date"),
-                        address = (Address) addressDao.search(rs.getInt("address_id")));
+        String query = String.format("" +
+                "UPDATE PATIENTS SET " + requisition + " WHERE id=" + id);
 
-            }
-                }
-        catch (Exception e){
+        Integer rowsUpdated = 0;
+
+        try {
+            statement = connection.createStatement();
+            rowsUpdated = statement.executeUpdate(query);
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
+        if(rowsUpdated == 0)
+            log.debug("Nenhuma linha foi afetada com sua solicitação.");
+        else
+            log.debug("Alterações realizadas!");
+        return rowsUpdated;
     }
-
 }

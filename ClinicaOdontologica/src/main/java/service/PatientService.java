@@ -30,13 +30,11 @@ public class PatientService {
     }
 
     public void delete(Patient patient) {
-
         patientIDao.delete(patient);
         addressService.delete(patient.getAddress());
     }
 
-
-
-
-
+    public Integer update(String requisition, Integer id) {
+        return patientIDao.update(requisition, id);
+    }
 }

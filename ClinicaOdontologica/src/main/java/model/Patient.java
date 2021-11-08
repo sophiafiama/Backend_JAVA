@@ -1,5 +1,5 @@
 package model;
-
+// Classe objeto Paciente
 public class Patient {
     private Integer id;
     private String name;

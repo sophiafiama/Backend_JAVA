@@ -3,6 +3,8 @@ package service;
 import dao.IDao;
 import model.Address;
 
+import java.util.List;
+
 public class AddressService {
 
     private IDao<Address> addressIDao;
@@ -19,7 +21,15 @@ public class AddressService {
         return addressIDao.search(id);
     }
 
+    public List<Address> searchAllAddresses() {
+        return addressIDao.searchAll();
+    }
+
     public void delete(Address address) {
         addressIDao.delete(address);
+    }
+
+    public Integer update(String requisition, Integer id) {
+        return addressIDao.update(requisition, id);
     }
 }

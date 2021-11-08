@@ -1,5 +1,5 @@
 package model;
-
+// Classe objeto Endereço
 public class Address {
     private Integer id;
     private String street;

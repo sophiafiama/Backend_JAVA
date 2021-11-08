@@ -23,7 +23,7 @@ public class DentistDaoImpl implements IDao<Dentist> {
 
     @Override
     public Dentist save(Dentist dentist) {
-        log.debug("Cadastrando o dentista: " + dentist.toString());
+        log.debug("Cadastrando profissional: " + dentist.toString());
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
@@ -48,7 +48,7 @@ public class DentistDaoImpl implements IDao<Dentist> {
 
     @Override
     public Dentist search(Integer id) {
-        log.debug("Procurando o dentista de id " + id);
+        log.debug("Buscando profissional. Id " + id);
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
@@ -77,39 +77,35 @@ public class DentistDaoImpl implements IDao<Dentist> {
     public List<Dentist> searchAll() {
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
-        String query = String.format(""+
+        String query = String.format("" +
                 "SELECT * FROM DENTISTS;");
 
         List<Dentist> dentists = new ArrayList<>();
 
-        try{
+        try {
             statement = connection.createStatement();
             ResultSet rs = statement.executeQuery(query);
-            log.debug("Mostrando lista de dentistas");
+            log.debug("Lista de profissionais cadastrados: ");
 
-            while (rs.next()){
+            while (rs.next()) {
                 Dentist dentist = new Dentist(
-                        rs.getInt("id"),
-                        rs.getString("registration"),
-                        rs.getString("name"),
-                        rs.getString("lastname")
+                       rs.getInt("id"),
+                       rs.getString("registration"),
+                       rs.getString("name"),
+                       rs.getString("lastname")
                 );
                 dentists.add(dentist);
                 log.debug(dentist.toString());
             }
-
-        }catch (Exception e){
-
+        } catch (Exception e) {
             e.printStackTrace();
-
         }
         return dentists;
     }
 
     @Override
-
     public void delete(Dentist dentist) {
-        log.debug("Deletando o dentist: " + dentist.toString());
+        log.debug("Deletando profissional: " + dentist.toString());
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
@@ -126,7 +122,24 @@ public class DentistDaoImpl implements IDao<Dentist> {
     }
 
     @Override
-    public Dentist update(Dentist dentist) {
-        return null;
+    public Integer update(String requisition, Integer id) {
+        Connection connection = CFG_JBDC.connectionDB();
+        Statement statement = null;
+        String query = String.format("" +
+                "UPDATE DENTISTS SET " + requisition + " WHERE id=" + id);
+
+        Integer rowsUpdated = 0;
+
+        try {
+            statement = connection.createStatement();
+            rowsUpdated = statement.executeUpdate(query);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if(rowsUpdated == 0)
+            log.debug("Nenhuma linha foi afetada com sua solicitação.");
+        else
+            log.debug("Alterações realizadas!");
+        return rowsUpdated;
     }
 }

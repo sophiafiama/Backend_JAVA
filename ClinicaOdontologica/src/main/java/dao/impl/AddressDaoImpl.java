@@ -1,5 +1,6 @@
 package dao.impl;
 
+import com.sun.jdi.event.StepEvent;
 import dao.ConfigJDBC;
 import dao.IDao;
 import model.Address;
@@ -24,7 +25,7 @@ public class AddressDaoImpl implements IDao<Address> {
 
     @Override
     public Address save(Address address) {
-        log.debug("Salvando novo endereço de id: " + address.toString());
+        log.debug("Salvando endereço. Id: " + address.toString());
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
@@ -49,7 +50,7 @@ public class AddressDaoImpl implements IDao<Address> {
 
     @Override
     public Address search(Integer id) {
-        log.debug("Realizando busca de endereço de id: " +  id);
+        log.debug("Buscando endereço. Id: " +  id);
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
@@ -78,41 +79,36 @@ public class AddressDaoImpl implements IDao<Address> {
     public List<Address> searchAll() {
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
-        String query = String.format(""+
+        String query = String.format("" +
                 "SELECT * FROM ADDRESSES;");
 
         List<Address> addresses = new ArrayList<>();
 
-        try{
+        try {
             statement = connection.createStatement();
             ResultSet rs = statement.executeQuery(query);
-            log.debug("Mostrando lista de endereço");
+            log.debug("Lista de endereços cadastrados: ");
 
-            while (rs.next()){
+            while (rs.next()) {
                 Address address = new Address(
                         rs.getInt("id"),
                         rs.getString("street"),
                         rs.getInt("number"),
                         rs.getString("city"),
                         rs.getString("state")
-                        );
+                );
                 addresses.add(address);
                 log.debug(address.toString());
             }
-
-          }catch (Exception e){
-
+        } catch (Exception e) {
             e.printStackTrace();
-
         }
         return addresses;
     }
 
-
-
     @Override
     public void delete(Address address) {
-        log.debug("Deletando o endereço: " + address.toString());
+        log.debug("Deletando  endereço: " + address.toString());
         Connection connection = CFG_JBDC.connectionDB();
         Statement statement = null;
         String query = String.format("" +
@@ -129,7 +125,23 @@ public class AddressDaoImpl implements IDao<Address> {
     }
 
     @Override
-    public Address update(Address address) {
-        return null;
+    public Integer update(String requisition, Integer id) {
+        Connection connection = CFG_JBDC.connectionDB();
+        Statement statement = null;
+        String query = String.format("" +
+                "UPDATE ADDRESSES SET " + requisition + " WHERE id=" + id);
+        Integer rowsUpdated = 0;
+
+        try {
+            statement = connection.createStatement();
+            rowsUpdated = statement.executeUpdate(query);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if(rowsUpdated == 0)
+            log.debug("Nenhuma linha foi afetada com sua solicitação.");
+        else
+            log.debug("Alterações realizadas!");
+        return rowsUpdated;
     }
 }

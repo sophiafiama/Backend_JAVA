@@ -1,5 +1,5 @@
 package model;
-
+// Classe objeto Dentista
 public class Dentist {
 
     private Integer id;

@@ -47,10 +47,10 @@ serão listados todos os pacientes que incluímos antes de realizar o
 primeiro teste.
 
 TODO
-TASK -> Lista de todos os pacientes e endereços
-TASK -> Lista de todos os dentistas
-TAKS -> Null em caso de voltar de vazio
-TASK -> Finalizar e testar todos os CRUDS.
+TASK -> Lista de todos os pacientes (V) e endereços (V)
+TASK -> Lista de todos os dentistas (V)
+TAKS -> Null em caso de voltar de vazio (V)
+TASK -> Finalizar e testar todos os CRUDS. (DELETE -V) (UPDATE - )
 
 REFACTOR'S TASKS:
 1 - SEARCH FROM PATIENT
